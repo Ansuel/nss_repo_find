@@ -9,16 +9,21 @@ How to chose the right firmware
 There are currently 2 type of Coprocessor tied to the SoC
 
 - AK Akronite ( Ipq806x )
-- HK Hawkeye/Cypress/Maple (ipq807x", "ipq60xx", "ipq50xx")
+- HK Hawkeye// (ipq807x")
+- CP Cypress ("ipq60xx")
+- MP?? Maple ("ipq50xx" Maple ipq50xx missing )
 ---
 Every Letter revision is tied to the QSDK. The Firmware are NOT interchangeable with different QSDK. A mismatch between revision and QSDK version results in the coprocessor NOT WORKING (not packet acceleration, not crypto acceleration)
 
 Revision are incremental.
+It looks like newer firmware from qsdk 11.3 started using 2.0 naming
 
 - F -> QSDK6.1
 - J -> QSDK10.0
 - K -> QSDK11.0
 - L -> QSDK11.1
+- 2.0 -> QSDL11.3
+
 ---
 The last letter R or E means that the firmware is dedicated to the RETAIL market or the ENTERPRISE market.
 Most of the times R contains more feature than E.
