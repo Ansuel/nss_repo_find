@@ -16,13 +16,16 @@ There are currently 2 type of Coprocessor tied to the SoC
 Every Letter revision is tied to the QSDK. The Firmware are NOT interchangeable with different QSDK. A mismatch between revision and QSDK version results in the coprocessor NOT WORKING (not packet acceleration, not crypto acceleration)
 
 Revision are incremental.
-It looks like newer firmware from qsdk 11.3 started using 2.0 naming
+It looks like newer firmware from qsdk 11.3 started using 2.0 naming and with 11.4 they started using qsdk version directly.
 
 - F -> QSDK6.1
 - J -> QSDK10.0
 - K -> QSDK11.0
 - L -> QSDK11.1
-- 2.0 -> QSDL11.3
+- 2.0 -> QSDK11.3
+- 11.4 -> QSDK11.4
+
+For ipq807x and later soc firmware are published on the quic repo as they are now mandatory for the correct function of such SoC.
 
 ---
 The last letter R or E means that the firmware is dedicated to the RETAIL market or the ENTERPRISE market.
