@@ -24,6 +24,7 @@ It looks like newer firmware from qsdk 11.3 started using 2.0 naming and with 11
 - L -> QSDK11.1
 - 2.0 -> QSDK11.3
 - 11.4 -> QSDK11.4
+- 12.0.r2 -> QSDK12.0.r2
 
 For ipq807x and later soc firmware are published on the quic repo as they are now mandatory for the correct function of such SoC.
 
